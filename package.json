@@ -1,0 +1,19 @@
+{
+  "name": "siddhivinayak-exporters-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for SiddhiVinayak Exporters (spices, rice, makhana, fresh produce).",
+  "type": "module",
+  "scripts": {
+    "check": "node tools/check-all.mjs",
+    "check:config": "node tools/check-config.mjs",
+    "check:contrast": "node tools/check-contrast.mjs",
+    "check:links": "node tools/check-links.mjs",
+    "check:html": "node tools/check-html.mjs",
+    "serve": "node tools/serve.mjs",
+    "fonts": "node tools/fetch-fonts.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

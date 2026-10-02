@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Siddhi Vinayak Exporters emblem: a globe with a rising gold arrow, cargo ship, sun and terraced fields">
+  <title>Siddhi Vinayak Exporters emblem</title>
+  <defs>
+    <linearGradient id="svLand" x1="240" y1="48" x2="240" y2="332" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4aa86a"/>
+      <stop offset="1" stop-color="#1f6b41"/>
+    </linearGradient>
+    <linearGradient id="svSun" x1="236" y1="255" x2="236" y2="355" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7cd63"/>
+      <stop offset="1" stop-color="#e5a72c"/>
+    </linearGradient>
+    <linearGradient id="svGold" x1="62" y1="352" x2="460" y2="91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2c65e"/>
+      <stop offset="1" stop-color="#c8912b"/>
+    </linearGradient>
+    <clipPath id="svGlobe">
+      <circle cx="240" cy="190" r="142"/>
+    </clipPath>
+  </defs>
+  <g transform="translate(0,13)">
+    <!-- Globe: white disc so the mark reads on both paper and deep-green grounds -->
+    <circle cx="240" cy="190" r="148" fill="#ffffff"/>
+    <g clip-path="url(#svGlobe)">
+      <g fill="none" stroke="#7ec9a1" stroke-width="4" opacity="0.7">
+        <ellipse cx="240" cy="190" rx="50" ry="148"/>
+        <ellipse cx="240" cy="190" rx="100" ry="148"/>
+        <path d="M101 140h278M92 190h296M101 240h278"/>
+      </g>
+      <g fill="url(#svLand)">
+        <path d="M238 128c-22-4-38 12-32 32 6 20-6 36 2 56 8 20 18 46 36 56 18 8 32-4 28-22-4-18-14-28-12-48 2-20 12-36 4-54-8-18-6-20-26-20z"/>
+        <path d="M232 96c-12-8-26-2-24 12 2 12 16 18 28 14 10-4 8-20-4-26z"/>
+        <path d="M262 84c22-16 56-12 72 8 16 20 8 42-12 48-16 5-26 18-40 12-14-6-18-24-14-40 2-12-14-22-6-28z"/>
+        <path d="M276 158c8 8 10 26 2 38-6 8-14 4-16-6-2-14 6-26 14-32z"/>
+        <path d="M140 150c-14-10-28 2-24 18 4 16 20 22 32 14 10-8 6-24-8-32z"/>
+        <ellipse cx="324" cy="178" rx="17" ry="10" transform="rotate(-18 324 178)"/>
+        <ellipse cx="347" cy="198" rx="8" ry="5"/>
+      </g>
+    </g>
+    <circle cx="240" cy="190" r="148" fill="none" stroke="#1d6a4c" stroke-width="11"/>
+    <!-- Rising sun behind the fields -->
+    <path d="M136 355a100 100 0 0 1 200 0z" fill="url(#svSun)"/>
+    <!-- Cargo ship moored behind the hills -->
+    <g transform="translate(0,-30)">
+      <rect x="354" y="279" width="24" height="12" rx="1" fill="#fcfaf5" stroke="#14513a" stroke-width="2"/>
+      <rect x="381" y="279" width="24" height="12" rx="1" fill="#fcfaf5" stroke="#14513a" stroke-width="2"/>
+      <rect x="408" y="279" width="24" height="12" rx="1" fill="#fcfaf5" stroke="#14513a" stroke-width="2"/>
+      <rect x="367" y="266" width="24" height="12" rx="1" fill="#fcfaf5" stroke="#14513a" stroke-width="2"/>
+      <rect x="394" y="266" width="24" height="12" rx="1" fill="#fcfaf5" stroke="#14513a" stroke-width="2"/>
+      <rect x="440" y="258" width="24" height="32" rx="2" fill="#fcfaf5" stroke="#14513a" stroke-width="2"/>
+      <rect x="445" y="263" width="6" height="5" fill="#14513a"/>
+      <rect x="454" y="263" width="6" height="5" fill="#14513a"/>
+      <path d="M328 288l24 28c48 16 96 15 128 3l8-27z" fill="#14513a" stroke="#e3efe8" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+    <!-- Growth arrow sweeping up across the globe -->
+    <path d="M62 352c108 8 218-44 288-127 35-40 65-80 92-113" fill="none" stroke="url(#svGold)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M460 91L458 134L418 100Z" fill="url(#svGold)"/>
+    <!-- Terraced fields -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M40 330Q236 544 480 322" stroke="#17513b" stroke-width="30"/>
+      <path d="M46 296Q236 506 474 288" stroke="#2e8a66" stroke-width="30"/>
+      <path d="M52 262Q236 468 468 254" stroke="#4ea878" stroke-width="30"/>
+    </g>
+    <!-- Sprout -->
+    <path d="M142 348c-20-30-36-60-42-88" fill="none" stroke="#2e8a66" stroke-width="7" stroke-linecap="round"/>
+    <path d="M118 312c-20-10-32-32-26-52 20 8 32 32 26 52z" fill="#2e8a66"/>
+    <path d="M104 274c6-22 26-36 46-32-2 22-22 38-46 32z" fill="#4ea878"/>
+  </g>
+</svg>
