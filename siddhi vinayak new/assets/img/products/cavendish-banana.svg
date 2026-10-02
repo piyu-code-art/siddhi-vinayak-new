@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+  <rect width="320" height="240" fill="#F7F3EA"/>
+  <path d="M0 198 H320" stroke="#E4DCC9" stroke-width="1"/>
+  <!-- Cavendish bunch: five fingers on a hand -->
+  <g>
+    <path d="M92 108 C130 86 196 90 236 122 C244 130 238 142 228 138 C190 122 138 120 104 130 C94 133 86 118 92 108 Z" fill="#E8C547"/>
+    <path d="M96 114 C130 100 186 104 224 130" stroke="#C9A227" stroke-width="2" fill="none"/>
+    <path d="M92 108 C102 100 116 94 130 92 C112 100 100 110 104 130 C94 133 86 118 92 108 Z" fill="#C9A227"/>
+  </g>
+  <g>
+    <path d="M104 148 C142 126 210 132 248 164 C256 172 250 184 240 180 C202 164 150 162 116 172 C106 175 98 158 104 148 Z" fill="#F0D35C"/>
+    <path d="M108 154 C142 140 200 146 236 172" stroke="#C9A227" stroke-width="2" fill="none"/>
+  </g>
+  <g>
+    <path d="M110 186 C146 168 208 174 244 202 C251 208 246 218 237 215 C202 202 156 200 124 208 C114 210 104 194 110 186 Z" fill="#E8C547"/>
+    <path d="M114 191 C146 180 200 186 232 209" stroke="#C9A227" stroke-width="2" fill="none"/>
+  </g>
+  <!-- crown / stem -->
+  <path d="M78 106 C70 92 66 78 68 64 C76 76 84 88 90 100" stroke="#7E6A2A" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M240 132 C252 126 262 122 272 120" stroke="#7E6A2A" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="176" cy="212" rx="96" ry="7" fill="#E4DCC9" opacity="0.65"/>
+</svg>

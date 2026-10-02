@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility statement | SiddhiVinayak Exporters</title>
+<meta name="description" content="How this site is built for WCAG 2.2 level AA, what is tested, known gaps and how to report an accessibility problem.">
+<meta name="theme-color" content="#0b2e22">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="./sdl.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Accessibility statement | SiddhiVinayak Exporters">
+<meta property="og:locale" content="en_IN">
+</head>
+<body id="top">
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="consent" data-consent-banner hidden>
+<div class="container"><div class="consent__inner consent__inner--panel">
+<div><h2>Cookies and local storage</h2>
+<p>This site works without tracking. Optional storage is used only with your permission. Read the <a href="cookies.html">cookie policy</a>.</p>
+<p data-consent-status role="status" aria-live="polite"></p></div>
+<div class="consent__actions">
+<button type="button" class="btn btn--primary" data-consent-accept>Accept all</button>
+<button type="button" class="btn btn--secondary" data-consent-reject>Reject optional</button>
+<button type="button" class="btn btn--quiet" data-consent-manage aria-expanded="false" aria-controls="consent-preferences">Choose individually</button>
+</div>
+<div id="consent-preferences" data-consent-panel hidden>
+<ul class="consent__options">
+<li><p class="consent__option"><input type="checkbox" id="consent-essential" checked disabled><label for="consent-essential"><strong>Essential (always on)</strong><span>Remembers your cookie choice. No identification.</span></label></p></li>
+<li><p class="consent__option"><input type="checkbox" id="consent-analytics"><label for="consent-analytics"><strong>Analytics</strong><span>Anonymised page counts. Off unless configured.</span></label></p></li>
+<li><p class="consent__option"><input type="checkbox" id="consent-media"><label for="consent-media"><strong>External media</strong><span>Third-party embeds. None used today.</span></label></p></li>
+</ul>
+<div class="consent__actions"><button type="button" class="btn btn--primary btn--sm" data-consent-save>Save my choices</button></div>
+</div></div></div></div>
+<div class="topbar"><div class="container">
+<p>Exporter of Indian spices, makhana, rice and fresh produce</p>
+<p data-config-wrap hidden>Enquiries: <span data-config="email"></span></p>
+</div></div>
+<header class="site-header"><div class="container site-header__inner">
+<a class="brand" href="index.html"><img class="brand__mark brand__mark--full" src="./sdl.png" alt="" aria-hidden="true" width="1000" height="1000"><span class="brand__text"><span class="brand__name" data-brand-name>Siddhi Vinayak Exporters</span><span class="brand__tag" data-brand-tagline>Quality that speaks for itself</span></span></a>
+<button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav"><span class="nav-toggle__bars" aria-hidden="true"></span><span>Menu</span></button>
+<nav class="primary-nav" id="primary-nav" data-nav-menu aria-label="Main"><ul>
+<li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="quality.html">Quality &amp; compliance</a></li><li><a href="about.html">About</a></li>
+</ul></nav>
+</div></header>
+<main id="main"><div class="page-head"><div class="container">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><span aria-current="page">Accessibility statement</span></li></ol></nav>
+<h1>Accessibility statement</h1>
+<p class="lede">This site is built to be usable by everyone, including buyers using keyboards, screen readers, zoom or reduced motion. Here is what we target, what we test, and the gaps we know about.</p>
+<p class="meta">Last reviewed: <span data-last-reviewed>26 September 2026</span></p>
+</div></div>
+<section class="section" aria-labelledby="a11y-commitment"><div class="container container--narrow">
+<h2 id="a11y-commitment">Our commitment</h2>
+<p>We target <strong>WCAG 2.2 level AA</strong> across all pages of this site. The site is a plain HTML, CSS and JavaScript build with no framework layer, which keeps the markup close to the standard structure assistive technology expects.</p>
+<h2 id="a11y-done">What that means in practice</h2>
+<ul class="list-check">
+<li>A skip link, one <code>h1</code> per page, and headings that descend in order without skipping levels.</li>
+<li>Every control works from the keyboard with a visible focus indicator; no keyboard traps.</li>
+<li>Text meets AA contrast against its background, and reflows to 320&nbsp;CSS pixels without horizontal scrolling.</li>
+<li>All informative illustrations carry alternative text; decorative marks are hidden from assistive technology.</li>
+<li>Forms use persistent labels, plain-language errors, and status messages announced to screen readers.</li>
+<li>Respect for <code>prefers-reduced-motion</code>: reveal animations and smooth scrolling switch off when you ask.</li>
+<li>Zoom to 200% and text resize remain supported; tap targets on small screens are sized for touch.</li>
+</ul>
+<h2 id="a11y-known">Known gaps</h2>
+<p>The product filter on the <a href="products.html">products page</a> updates results live; result counts are announced, but the chip group could expose a richer radio-group pattern in a future revision. Some older export documents we may send as PDFs are not yet tagged for screen readers; on request we supply the same content in accessible HTML or plain text.</p>
+<h2 id="a11y-test">How we test</h2>
+<p>Pages are checked with keyboard-only navigation, browser zoom at 200%, Windows High Contrast where applicable, and automated checks as part of <code>npm run check</code>. Content is reviewed against the criteria each time pages change.</p>
+<h2 id="a11y-contact">Tell us if something does not work</h2>
+<p>If any part of this site creates a barrier for you, write through the <a href="contact.html">contact page</a> describing the page, what you were trying to do and the assistive technology you use. We aim to acknowledge within seven days and provide the information in an alternative format promptly.</p>
+</div></section>
+<section class="section section--tight section--paper-2"><div class="container split">
+<div><h2>Need information in another format?</h2><p>Specifications, quotations and policy pages can be supplied as plain text or accessible HTML on request.</p></div>
+<div class="btn-row"><a class="btn btn--primary" href="contact.html">Contact us</a><a class="btn btn--secondary" href="privacy.html">Privacy notice</a></div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container">
+<div class="footer-grid">
+<div class="footer-brand"><a class="brand" href="index.html"><img class="brand__mark" src="./sdl-original.png" alt="" aria-hidden="true" width="96" height="96"><span class="brand__text"><span class="brand__name" data-brand-name>Siddhi Vinayak Exporters</span><span class="brand__tag" data-brand-tagline>Quality that speaks for itself</span></span></a>
+<p>Indian spices, makhana, rice and fresh fruits and vegetables supplied against written specifications.</p></div>
+<nav aria-labelledby="footer-products"><h2 id="footer-products">Products</h2><ul class="footer-list"><li><a href="products.html#spices">Spices</a></li><li><a href="products.html#makhana">Makhana (foxnut)</a></li><li><a href="products.html#rice">Rice</a></li><li><a href="products.html#produce">Fresh fruits &amp; vegetables</a></li></ul></nav>
+<nav aria-labelledby="footer-company"><h2 id="footer-company">Company</h2><ul class="footer-list"><li><a href="about.html">About us</a></li><li><a href="quality.html">Quality &amp; compliance</a></li><li><a href="contact.html">Contact</a></li><li><a href="accessibility.html" aria-current="page">Accessibility statement</a></li></ul></nav>
+<nav aria-labelledby="footer-legal"><h2 id="footer-legal">Policies</h2><ul class="footer-list"><li><a href="privacy.html">Privacy notice</a></li><li><a href="terms.html">Terms &amp; conditions</a></li><li><a href="cookies.html">Cookie policy</a></li><li><button type="button" class="link-btn" data-consent-open>Cookie settings</button></li></ul></nav>
+</div>
+<div class="footer-registrations" data-registration-block hidden><h2 id="footer-registrations">Registrations</h2><ul class="registration-list" data-registration-list></ul></div>
+<div class="footer-meta"><p>&copy; 2026 <span data-legal-name>SiddhiVinayak Exporters</span>. All rights reserved.</p><div class="footer-meta__links"><p>Content last reviewed <span data-last-reviewed>26 September 2026</span></p><a href="#top">Back to top</a></div></div>
+</div></footer>
+<script src="assets/js/site-config.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
